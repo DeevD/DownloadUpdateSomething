@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     Dialog progressDialog;
     DownloadUpdateApkAsync downloadUpdateApkAsync;
-    String downloadUrl = "https://www.mahartv.com/android/mahar.apk";
+    String downloadUrl = "Something Links";
 
 
     @Override

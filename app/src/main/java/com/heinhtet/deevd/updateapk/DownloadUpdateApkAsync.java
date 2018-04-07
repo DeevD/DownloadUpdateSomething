@@ -83,7 +83,7 @@ public class DownloadUpdateApkAsync extends AsyncTask<String, String, String> {
             InputStream input = new BufferedInputStream(url.openStream());
             File file = new File(PATH);
             file.mkdirs();
-            File outputFile = new File(file, "Mahar.apk");
+            File outputFile = new File(file, "SomthingFileName");
             if (outputFile.exists()) {
                 outputFile.delete();
             }
